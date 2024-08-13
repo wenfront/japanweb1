@@ -1,0 +1,38 @@
+.bg {
+  background-image: url(../img/bg.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-two {
+  background-image: url(../img/bg1.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-anima {
+  animation: row-and-shrink 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  color: white;
+}
+th, td {
+  padding: 10px;
+}
+@keyframes row-and-shrink {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
